@@ -1,5 +1,24 @@
 # Project Setup
 
+### ①ログイン＆検索
+![①ログイン＆検索](https://user-images.githubusercontent.com/106817806/222949764-fda62c49-758f-44e2-aa6b-f723529fa589.gif)
+### ②商品登録＆削除
+![②商品登録＆削除](https://user-images.githubusercontent.com/106817806/222949881-f19c581e-8486-43ac-9a6c-88c8849672c9.gif)
+### ③商品編集＆カート
+![③商品編集＆カート](https://user-images.githubusercontent.com/106817806/222950003-e3ae977a-9072-4d5e-af03-28a41734dadd.gif)
+### ④ユーザーページ
+![④ユーザーページ](https://user-images.githubusercontent.com/106817806/222950831-608257db-8b00-4fbc-a5e0-6f74306445aa.gif)
+### ⑤サプライヤーページ
+![⑤サプライヤーページ](https://user-images.githubusercontent.com/106817806/222951148-f63326f2-f1f0-40a6-abeb-ab0050aba96e.gif)
+### ⑥カテゴリーページ
+![⑥カテゴリーページ](https://user-images.githubusercontent.com/106817806/222951325-38f7c4a8-e3a7-4e08-b53d-d36a7b3610a8.gif)
+### ⑦管理者以外の場合
+![⑦管理者以外の場合](https://user-images.githubusercontent.com/106817806/222951398-3ab188e2-99ae-4271-95e4-6c7163baffb7.gif)
+
+
+# 商品登録＆削除
+
+
 ### versions
 ```
 - PHP:  7.4.22 
@@ -162,6 +181,10 @@ winpty docker-compose exec app php artisan db:seed
 # [LINUX/MAC]
 $ docker-compose exec app chown www-data storage/ -R
 $ docker-compose exec app chmod -R 777 storage/
+
+https://user-images.githubusercontent.com/106817806/222945047-36a787d5-1761-44ca-b902-287be9434ecb.mp4
+
+
 
 ------------------
 
