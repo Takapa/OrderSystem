@@ -1,7 +1,8 @@
 # Project Setup
 
-# ①ログイン＆検索
-![Uploading ①ログイン＆検索.gif…]()
+### ①ログイン＆検索
+![①ログイン＆検索](https://user-images.githubusercontent.com/106817806/222949764-fda62c49-758f-44e2-aa6b-f723529fa589.gif)
+
 
 # 商品登録＆削除
 
