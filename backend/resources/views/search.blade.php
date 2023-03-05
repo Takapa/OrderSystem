@@ -2,56 +2,56 @@
 
 @section('content')
 
-    <h2 class="text-center">商品検索</h2>
-    <div class="row mt-3">
-        <form method="GET" action="{{ route('search')}}">
-        @csrf
-          <div class="row mb-1">
-            <label class="col-sm-2 col-form-label">検索ワード</label>
-            <!--入力-->
-            <div class="col-sm-5">
-              <input type="text" class="form-control" name="searchWord" value="{{ $searchWord }}">
-            </div>
-            <div class="col-sm-auto">
-              <button type="submit" class="btn btn-primary px-3">検索</button>
-            </div>
-          </div>     
-          <!--プルダウンカテゴリ選択-->
-          <div class="row mb-1">
-            <label class="col-sm-2">商品カテゴリー</label>
-            <div class="col-sm-3">
-              <select name="categoryId" class="form-control" value="{{ $categoryId }}">
-                <option value="" hidden>未選択</option>
+<h2 class="text-center">商品検索</h2>
+<div class="row mt-3">
+    <form method="GET" action="{{ route('search')}}">
+    @csrf
+      <div class="row mb-1">
+        <label class="col-sm-2 col-form-label">検索ワード</label>
+        <!--入力-->
+        <div class="col-sm-5">
+          <input type="text" class="form-control" name="searchWord" value="{{ $searchWord }}">
+        </div>
+        <div class="col-sm-auto">
+          <button type="submit" class="btn btn-primary px-3">検索</button>
+        </div>
+      </div>     
+      <!--プルダウンカテゴリ選択-->
+      <div class="row mb-1">
+        <label class="col-sm-2">商品カテゴリー</label>
+        <div class="col-sm-3">
+          <select name="categoryId" class="form-control" value="{{ $categoryId }}">
+            <option value="" hidden>未選択</option>
 
-                @foreach($categories as $id => $category_name)
-                <option value="{{ $id }}">
-                  {{ $category_name }}
-                </option>  
-                @endforeach
-              </select>
-            </div>
-          </div>
-          <!--プルダウンサプライヤー選択-->
-          <div class="row">
-            <label class="col-sm-2">サプライヤー</label>
-            <div class="col-sm-3">
-              <select name="supplierId" class="form-control" value="{{ $supplierId }}">
-                <option value="" hidden>未選択</option>
+            @foreach($categories as $id => $category_name)
+            <option value="{{ $id }}">
+              {{ $category_name }}
+            </option>  
+            @endforeach
+          </select>
+        </div>
+      </div>
+      <!--プルダウンサプライヤー選択-->
+      <div class="row">
+        <label class="col-sm-2">サプライヤー</label>
+        <div class="col-sm-3">
+          <select name="supplierId" class="form-control" value="{{ $supplierId }}">
+            <option value="" hidden>未選択</option>
 
-                @foreach($suppliers as $id => $supplier_name)
-                <option value="{{ $id }}">
-                  {{ $supplier_name }}
-                </option>  
-                @endforeach
-              </select>
-            </div>
-          </div>
-        </form>
-    </div>
-  </div>
+            @foreach($suppliers as $id => $supplier_name)
+            <option value="{{ $id }}">
+              {{ $supplier_name }}
+            </option>  
+            @endforeach
+          </select>
+        </div>
+      </div>
+    </form>
+</div>
+</div>
 
-  <h2 class="text-center mt-5">商品一覧</h2>
-  <table class="table table-hover align-middle bg-white border text-secondary">
+
+<table class="table table-hover align-middle bg-white border text-secondary mt-5">
     <thead class="small table-success text-secondary">
         <tr>
             <th>ID</th>
@@ -67,7 +67,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach ($all_items as $item)
+        @forelse ($items as $item)
             <tr>
                 <td>{{ $item->id }}</td>
                 <td><a href="{{ route('item.show', $item->id) }}">{{ $item->name }}</a></td>
@@ -77,7 +77,7 @@
                 <td class="text-truncate" style="max-width: 220px;">{{ $item->description }}</td>
                 <td>{{ $item->supplier->name }}</td>
                 <td class="text-center">
-                    <form action="{{ route('cart.store', $item->id) }}" method="post">
+                    <form action="#" method="get">
                     @csrf
                         <button class="text-warning border border-none">
                             <i class="fa-solid fa-cart-shopping"></i>
@@ -99,13 +99,15 @@
                     </button>
                     @include('item.modal.deleteItem')
                 </td>
+            @empty
+                <td colspan="10" class="fw-bold text-center py-3">検索ワードに該当するものはありませんでした</td>
             </tr>
-        @endforeach
+        @endforelse
     </tbody>
 </table>
 
 <div class="d-flex justify-content-center">
-    {!! $all_items->links() !!}
+    {!! $items->links() !!}
 </div>
 
 @endsection
