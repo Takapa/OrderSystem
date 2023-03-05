@@ -20,8 +20,8 @@
                     @endif
 
                     <form class="form-horizontal" method="POST" action="#">
-                        {{ csrf_field() }}
-                        {{ method_field('patch') }}
+                    @csrf
+                    @method('PATCH')
  
                         <input type="hidden" name="id" value="{{ $user->id }}">
                         <div class="form-group{{ $errors->has('current_password') ? ' has-error' : '' }}">

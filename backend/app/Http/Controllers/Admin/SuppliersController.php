@@ -57,4 +57,11 @@ class SuppliersController extends Controller
     
        return redirect()->back();
     }
+
+    public function destroy($id)
+    {
+        $this->supplier->destroy($id);
+        return redirect()->back();
+    }
+
 }
