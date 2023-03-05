@@ -1,7 +1,10 @@
 # Project Setup
 
-![参照動画](https://user-images.githubusercontent.com/106817806/222948286-18883d39-aee9-432c-8dee-ccbaf1a3a68a.gif)
-![参照動画](https://user-images.githubusercontent.com/106817806/222948369-698f84b2-c008-440b-9aa2-e0b2fb51874c.gif)
+# ①ログイン＆検索
+![Uploading ①ログイン＆検索.gif…]()
+
+# 商品登録＆削除
+
 
 ### versions
 ```
