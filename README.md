@@ -163,6 +163,10 @@ winpty docker-compose exec app php artisan db:seed
 $ docker-compose exec app chown www-data storage/ -R
 $ docker-compose exec app chmod -R 777 storage/
 
+https://user-images.githubusercontent.com/106817806/222945047-36a787d5-1761-44ca-b902-287be9434ecb.mp4
+
+
+
 ------------------
 
 # [WINDOWS]
