@@ -11,9 +11,9 @@
 ### ⑤サプライヤーページ
 ![⑤サプライヤーページ](https://user-images.githubusercontent.com/106817806/222951148-f63326f2-f1f0-40a6-abeb-ab0050aba96e.gif)
 ### ⑥カテゴリーページ
-
+![⑥カテゴリーページ](https://user-images.githubusercontent.com/106817806/222951325-38f7c4a8-e3a7-4e08-b53d-d36a7b3610a8.gif)
 ### ⑦管理者以外の場合
-
+![Uploading ⑦管理者以外の場合.gif…]()
 
 # 商品登録＆削除
 
