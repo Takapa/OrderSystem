@@ -1,6 +1,6 @@
 # Project Setup
 
-![Uploading 参照動画.gif…]()
+![参照動画](https://user-images.githubusercontent.com/106817806/222948286-18883d39-aee9-432c-8dee-ccbaf1a3a68a.gif)
 
 ### versions
 ```
