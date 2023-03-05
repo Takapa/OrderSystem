@@ -13,7 +13,8 @@
 ### ⑥カテゴリーページ
 ![⑥カテゴリーページ](https://user-images.githubusercontent.com/106817806/222951325-38f7c4a8-e3a7-4e08-b53d-d36a7b3610a8.gif)
 ### ⑦管理者以外の場合
-![Uploading ⑦管理者以外の場合.gif…]()
+![⑦管理者以外の場合](https://user-images.githubusercontent.com/106817806/222951398-3ab188e2-99ae-4271-95e4-6c7163baffb7.gif)
+
 
 # 商品登録＆削除
 
