@@ -4,6 +4,8 @@
 ![①ログイン＆検索](https://user-images.githubusercontent.com/106817806/222949764-fda62c49-758f-44e2-aa6b-f723529fa589.gif)
 ### ②商品登録＆削除
 ![②商品登録＆削除](https://user-images.githubusercontent.com/106817806/222949881-f19c581e-8486-43ac-9a6c-88c8849672c9.gif)
+### ③商品編集＆カート
+![③商品編集＆カート](https://user-images.githubusercontent.com/106817806/222950003-e3ae977a-9072-4d5e-af03-28a41734dadd.gif)
 
 # 商品登録＆削除
 
