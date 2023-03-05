@@ -8,6 +8,12 @@
 ![③商品編集＆カート](https://user-images.githubusercontent.com/106817806/222950003-e3ae977a-9072-4d5e-af03-28a41734dadd.gif)
 ### ④ユーザーページ
 ![④ユーザーページ](https://user-images.githubusercontent.com/106817806/222950831-608257db-8b00-4fbc-a5e0-6f74306445aa.gif)
+### ⑤サプライヤーページ
+![⑤サプライヤーページ](https://user-images.githubusercontent.com/106817806/222951148-f63326f2-f1f0-40a6-abeb-ab0050aba96e.gif)
+### ⑥カテゴリーページ
+
+### ⑦管理者以外の場合
+
 
 # 商品登録＆削除
 
