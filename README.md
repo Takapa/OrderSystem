@@ -1,6 +1,6 @@
 # Project Setup
 
-![git](https://github.com/Takapa/Capture/issues/1#issue-1610081917)
+![Uploading 参照動画.gif…]()
 
 ### versions
 ```
