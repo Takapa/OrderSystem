@@ -1,5 +1,7 @@
 # Project Setup
 
+![git](https://github.com/Takapa/Capture/issues/1#issue-1610081917)
+
 ### versions
 ```
 - PHP:  7.4.22 
